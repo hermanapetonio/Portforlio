@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header { background-color: blue;
+    height: 400px;
+    display: flex;
+
+}
+
+.profile {
+     background-color: green;
+     width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    height: 70px;
+    align-items: center;
+    margin-top:25px;
+   
+}
+
+.profile-info {
+    background-color: yellow;
+    height: 50px;
+}
+.navigation {background-color: orange;
+    width: 750px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.navigation-link {
+    background-color: red;
+    height: 50rem;
+
+}
+
+main { background-color: yellow;
+     height: 400px;
+     display: flex;
+
+}
+
+footer {
+     background-color: red;
+     height: 400px;
+     display: flex;
+
+}
